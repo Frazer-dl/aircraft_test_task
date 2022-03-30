@@ -4,7 +4,7 @@ mvn package
 docker build -t springio/aircraft-docker .
 docker run -p 8080:8080 springio/aircraft-docker
 
-java17, docker, mapstruct
+Используется java17 , docker, mapstruct
 
 ## Задание
 Напишите программу на языке программирования
