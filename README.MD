@@ -1,4 +1,4 @@
-###Для сборки и запуска приложения потребуется докер.
+### Для сборки и запуска приложения потребуется докер.
 
 mvn package
 docker build -t springio/aircraft-docker .
@@ -6,7 +6,7 @@ docker run -p 8080:8080 springio/aircraft-docker
 
 java17, docker, mapstruct
 
-##Задание
+## Задание
 Напишите программу на языке программирования
 java, которая прочитает файл tickets.json и
 рассчитает:
